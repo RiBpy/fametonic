@@ -63,7 +63,7 @@ export default function FametonicLanding() {
               >
                 <div className="w-full sm:w-max space-y-[10px]">
                   <Button
-                    customClassName="group relative bg-gradient-to-r from-[#FC004E] to-[#FC004E] hover:from-pink-600 hover:to-red-600 text-white font-bold py-2 px-[99px] rounded-xl transition-all duration-300 transform hover:scale-105 shadowed-button w-full sm:w-max"
+                    customClassName="group relative bg-gradient-to-r from-[#FC004E] to-[#FC004E] hover:from-pink-600 hover:to-red-600 text-white font-bold py-2 sm:px-[99px] rounded-xl transition-all duration-300 transform hover:scale-105 shadowed-button w-full sm:w-max"
                     Children={
                       <p className="relative z-10 flex items-center justify-center gap-2 font-figtree text-[20px] font-bold">
                         GET STARTED <ChevronRight />
