@@ -5,13 +5,13 @@ const Navbar = ({ isVisible }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav className="relative z-50 global-padding py-6 font-figtree">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-7xl mx-auto flex items-center justify-between md:justify-between">
         {/* Logo */}
         <div
-          className={`transform transition-all duration-1000 ${
+          className={`transform transition-all duration-1000 md:translate-x-0 absolute left-1/2 -translate-x-1/2 md:relative md:left-auto md:transform-none ${
             isVisible
-              ? "translate-x-0 opacity-100"
-              : "-translate-x-10 opacity-0"
+              ? "translate-y-0 opacity-100"
+              : "-translate-y-4 opacity-0"
           }`}
         >
           <Image
@@ -42,7 +42,7 @@ const Navbar = ({ isVisible }) => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden flex flex-col gap-1 p-2"
+          className="md:hidden flex flex-col gap-1 p-2 ml-auto relative z-10"
         >
           <div
             className={`w-6 h-0.5 bg-white transition-all duration-300 ${
