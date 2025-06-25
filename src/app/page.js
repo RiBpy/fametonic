@@ -38,13 +38,13 @@ export default function FametonicLanding() {
               }`}
             >
               {/* Main Heading */}
-              <div className="space-y-4 font-urbanist">
-                <h1 className="text-[25px] md:text-[35px] font-bold leading-tight ">
+              <div className="space-y-1 font-urbanist">
+                <h1 className="text-[25px] md:text-[35px] font-extrabold md:font-bold leading-tight ">
                   <span className="text-white drop-shadow-2xl">
                     Want to Turn Social Media Into a Profitable Career?
                   </span>
                 </h1>
-                <h2 className="text-[25px] md:text-[35px] font-bold drop-shadow-2xl text-[#00E7F9] shadowed-text">
+                <h2 className="text-[25px] md:text-[35px] font-extrabold md:font-bold drop-shadow-2xl text-[#00E7F9] shadowed-text">
                   Discover your way to success with Fametonic:
                 </h2>
               </div>
@@ -61,9 +61,9 @@ export default function FametonicLanding() {
                     : "translate-y-10 opacity-0"
                 }`}
               >
-                <div className="w-full md:w-max space-y-[10px]">
+                <div className="w-full sm:w-max space-y-[10px]">
                   <Button
-                    customClassName="group relative bg-gradient-to-r from-[#FC004E] to-[#FC004E] hover:from-pink-600 hover:to-red-600 text-white font-bold py-2 px-[99px] rounded-xl transition-all duration-300 transform hover:scale-105 shadowed-button "
+                    customClassName="group relative bg-gradient-to-r from-[#FC004E] to-[#FC004E] hover:from-pink-600 hover:to-red-600 text-white font-bold py-2 px-[99px] rounded-xl transition-all duration-300 transform hover:scale-105 shadowed-button w-full sm:w-max"
                     Children={
                       <p className="relative z-10 flex items-center justify-center gap-2 font-figtree text-[20px] font-bold">
                         GET STARTED <ChevronRight />

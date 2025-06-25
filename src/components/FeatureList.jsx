@@ -1,7 +1,7 @@
 import React from "react";
 
 const FeatureList = ({ isVisible }) => (
-  <div className="space-y-4">
+  <div className="space-y-[10px] md:space-y-[13px]">
     {[
       "Start growing your influence right away—no waiting required!",
       "Create viral TikToks and Reels step by step with easy-to-follow lessons",
