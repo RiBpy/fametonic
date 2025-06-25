@@ -39,12 +39,12 @@ export default function FametonicLanding() {
             >
               {/* Main Heading */}
               <div className="space-y-4 font-urbanist">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight ">
+                <h1 className="text-[25px] md:text-[35px] font-bold leading-tight ">
                   <span className="text-white drop-shadow-2xl">
                     Want to Turn Social Media Into a Profitable Career?
                   </span>
                 </h1>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold drop-shadow-2xl text-[#00E7F9] shadowed-text">
+                <h2 className="text-[25px] md:text-[35px] font-bold drop-shadow-2xl text-[#00E7F9] shadowed-text">
                   Discover your way to success with Fametonic:
                 </h2>
               </div>

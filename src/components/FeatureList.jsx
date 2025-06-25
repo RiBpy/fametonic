@@ -18,7 +18,7 @@ const FeatureList = ({ isVisible }) => (
         <div className="flex-shrink-0 mt-1">
           <div className="text-yellow-400 text-xl animate-pulse">✨</div>
         </div>
-        <p className="text-white text-lg leading-relaxed drop-shadow-lg font-figtree">
+        <p className="text-white leading-relaxed drop-shadow-lg font-figtree text-[16px] font-semibold">
           {text}
         </p>
       </div>
