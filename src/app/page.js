@@ -53,33 +53,38 @@ export default function FametonicLanding() {
               <FeatureList isVisible={isVisible} />
 
               {/* CTA Button */}
+
               <div
-                className={`space-y-4 transform transition-all duration-1000 delay-1000 ${
+                className={`transform transition-all duration-1000 delay-1000 ${
                   isVisible
                     ? "translate-y-0 opacity-100"
                     : "translate-y-10 opacity-0"
                 }`}
               >
-                <Button
-                  customClassName="group relative w-full md:w-auto bg-gradient-to-r bg-[#FC004E] hover:from-pink-600 hover:to-red-600 text-white font-bold py-2 px-[99px] rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadowed-button"
-                  Children={
-                    <p className="relative z-10 flex items-center justify-center gap-2 font-figtree">
-                      GET STARTED <ChevronRight />
+                <div className="w-full md:w-max space-y-[10px]">
+                  <Button
+                    customClassName="group relative bg-gradient-to-r from-[#FC004E] to-[#FC004E] hover:from-pink-600 hover:to-red-600 text-white font-bold py-2 px-[99px] rounded-xl transition-all duration-300 transform hover:scale-105 shadowed-button "
+                    Children={
+                      <p className="relative z-10 flex items-center justify-center gap-2 font-figtree text-[20px] font-bold">
+                        GET STARTED <ChevronRight />
+                      </p>
+                    }
+                  />
+                  <div className="text-white">
+                    <p className="text-[12px]  font-figtree text-center">
+                      1-minute quiz for personalized Insights
                     </p>
-                  }
-                />
-                <p className="text-sm text-gray-400 text-center md:text-left font-figtree">
-                  1-minute quiz for personalized Insights
-                </p>
+                  </div>
+                </div>
               </div>
 
               {/* Legal Text */}
               <div className=" text-gray-500 space-y-2 font-figtree">
-                <p className="text-[14px]">
-                  By clicking <b>"Get Started"</b>, you agree with Terms and
-                  Conditions, Privacy Policy, Subscription Terms
+                <p className="text-[12px] font-medium">
+                  By clicking <b>&quot;Get Started&quot;</b>, you agree with
+                  Terms and Conditions, Privacy Policy, Subscription Terms
                 </p>
-                <p className="text-[12px]">
+                <p className="text-[10px] font-medium">
                   Fametonic 2025 ©All Rights Reserved.
                 </p>
               </div>

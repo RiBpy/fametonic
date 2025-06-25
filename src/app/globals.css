@@ -27,7 +27,7 @@
 }
 
 .shadowed-text {
-  text-shadow: 1px 1px 0 #ff007a, 2px 2px 2px #ff007a;
+  text-shadow: 1px 1px 0 #ff007a, 4px 4px 6px #ff007a;
 }
 
 .shadowed-button {
