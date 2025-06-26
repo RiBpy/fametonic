@@ -3,15 +3,16 @@ import React, { useState } from "react";
 
 const Navbar = ({ isVisible }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const commonMenuClasses =
+    "text-[#A9A9A9] hover:text-white hover:scale-[1.15] transition-all duration-300 font-medium";
+
   return (
     <nav className="relative z-50 global-padding py-6 font-figtree">
       <div className="max-w-7xl mx-auto flex items-center justify-between md:justify-between">
         {/* Logo */}
         <div
           className={`transform transition-all duration-1000 md:translate-x-0 absolute left-1/2 -translate-x-1/2 md:relative md:left-auto md:transform-none ${
-            isVisible
-              ? "translate-y-0 opacity-100"
-              : "-translate-y-4 opacity-0"
+            isVisible ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0"
           }`}
         >
           <Image
@@ -25,16 +26,10 @@ const Navbar = ({ isVisible }) => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <a
-            href="#"
-            className="text-gray-300 hover:text-white transition-colors duration-300 font-medium"
-          >
+          <a href="#" className={commonMenuClasses}>
             About us
           </a>
-          <a
-            href="#"
-            className="text-gray-300 hover:text-white transition-colors duration-300 font-medium"
-          >
+          <a href="#" className={commonMenuClasses}>
             Contact
           </a>
         </div>
@@ -69,16 +64,10 @@ const Navbar = ({ isVisible }) => {
         }`}
       >
         <div className="px-4 py-6 space-y-4">
-          <a
-            href="#"
-            className="block text-gray-300 hover:text-white transition-colors duration-300 font-medium"
-          >
+          <a href="#" className={`block ${commonMenuClasses} `}>
             About us
           </a>
-          <a
-            href="#"
-            className="block text-gray-300 hover:text-white transition-colors duration-300 font-medium"
-          >
+          <a href="#" className={`block ${commonMenuClasses} `}>
             Contact
           </a>
         </div>

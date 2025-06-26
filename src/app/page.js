@@ -79,7 +79,7 @@ export default function FametonicLanding() {
               </div>
 
               {/* Legal Text */}
-              <div className=" text-gray-500 space-y-2 font-figtree">
+              <div className="text-[#ABABAB] space-y-2 font-figtree">
                 <p className="text-[12px] font-medium">
                   By clicking <b>&quot;Get Started&quot;</b>, you agree with
                   Terms and Conditions, Privacy Policy, Subscription Terms
